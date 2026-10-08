@@ -1,13 +1,28 @@
 body{ 
-    background-color: gold;
+    background-color: red;
 }
-.card{
-    background-color: blue;
-    border: 1px solid black;
+.cards{
+    background-color: white;
+    border: 1px solid white;
     padding: 10px;
-    margin: 10px;
-    radius: 5px;
+    margin: 30px;
+    border-radius: 15px;
     overflow: hidden;
     font-family: Arial;
+} 
+.card{
+    background-color: white;
+    border: 1px solid white;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    font-family: Arial;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 

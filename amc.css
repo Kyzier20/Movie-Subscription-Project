@@ -1,0 +1,12 @@
+body{ 
+    background-color: black;
+}
+.card{
+    background-color: white;
+    border: 1px solid white;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    font-family: Arial;
+}
